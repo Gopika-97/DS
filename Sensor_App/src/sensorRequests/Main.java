@@ -9,7 +9,7 @@ public class Main {
 		
 		
 		Timer timer1 = new Timer();
-		timer1.schedule(new GetRequest(), 0, 3000);
+		timer1.schedule(new GetRequest(), 0, 30000);
 	}
 
 }
